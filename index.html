@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Radio+Canada:wght@300&family=Rubik:wght@300&family=Satisfy&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+  <div class="tudo">
+    <!--titulo-->
+    <div class="titulo">
+      <div class="cont">
+        <div class="balance">
+          My balance
+        </div>
+        <div class="lucro">
+          $921.48
+        </div>
+      </div>
+      <img src="./images/logo.svg" alt="logo da empresa do grafico">
+    </div>
+    <!--GRÁFICO EM BARRAS-->
+    <main class="data">
+      <div class="info">
+        <div class=" days">
+          Spending - Last 7 days
+        </div>
+        
+        <div id="grafico">
+
+        </div>
+
+      </div>
+      <!--TOTAL-->
+      <div class="total">
+        <div class="mes">
+          <div class="monthv">
+            Total this month
+          </div>
+          <div class="value">
+            $478.33
+          </div>
+        </div>
+        <!--PORCENTAGEM-->
+        <div class="percent">
+          <div class="porcentagem">
+            +2.4%
+          </div>
+          <div class="month">
+            from last month
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Feito por <a href="https://www.linkedin.com/in/willian-carvalho-631616230/">Willian Carvalho</a>.
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

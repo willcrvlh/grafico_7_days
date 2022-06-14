@@ -1,0 +1,121 @@
+body {
+    background-color: pink;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.attribution a {
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+.tudo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+}
+
+.titulo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px tomato;
+    height: 4.5em;
+    width: 25em;
+    background-color: tomato;
+    border-radius: 0.5em;
+    padding: 0.3em;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 1em;
+}
+
+.balance {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    color: rgb(214, 209, 209);
+}
+
+.lucro {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.data {
+    border: solid 2px white;
+    background-color: white;
+    height: 25em;
+    width: 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2em;
+    border-radius: 0.5em;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.days {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.6rem;
+    color: #4B371C;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.monthv {
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+    color: grey;
+}
+
+.value {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: #4B371C;
+    font-weight: bold;
+}
+
+.porcentagem {
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+    color: #4B371C;
+    font-weight: bold;
+}
+
+.month {
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+    color: #4B371C;
+
+}
+
+.weekend {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 18em;
+    font-size: 0.7rem;
+    font-family: "rubik", sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    
+}
+
